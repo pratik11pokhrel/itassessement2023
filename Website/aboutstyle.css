@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+        height: 10vh;
+    /* width: 100vw; */
+
+}
+
+nav::before {
+    content: "";
+    /* background-image: url('/Images/about.jpg'); */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(184, 202, 208);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+    position: absolute;
+    z-index: -1;
+}
+
+.logo {
+    display: flex;
+    margin-top: 12px;
+}
+
+.h1 {
+    color: rgb(44, 82, 12);
+    font-size: 2rem;
+    font-family: serif;
+}
+
+ul {
+    display: flex;
+    margin-right: 41px;
+    /* position: sticky; */
+}
+
+ul li {
+    list-style: none;
+    font-size: 21px;
+    padding: 22px;
+    /* overflow: hidden; */
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+ul li a:hover {
+    padding: 9px;
+    border-radius: 9px;
+    color: red;
+    background-color: rgb(103, 103, 206);
+
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 80vh;
+}
+.story{
+    width: 20vw;
+    /* margin-top: 4%; */
+}
+
+.img1{
+   max-width: 100%;
+   width: fit-content;
+}
+.para{
+    width: 40vw;
+    /* height: 55vh; */
+}
+.paragraph{
+    max-width: fit-content;
+    font-size: 1.1rem;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.btn{
+    margin-top: 3%;
+    padding: 9px;
+    border: #f6f6f6;
+    font-size: 1rem;
+}
+.btn:hover{
+   color: black;
+   background-color: lightblue;
+}
+footer{
+    background-color: #3d4a66;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fill input{
+   padding: 0.8rem;
+   width: 32vw;
+}
+.fill select{
+    padding: 0.8rem;
+    width: 34vw;
+}
+.form{
+    font-size: 3rem;
+    color: white;
+}
+
+.btn2{
+    padding: 9px;
+    width: 7vw;
+    background-color: rgb(42, 51, 46);
+    color: white;
+}
+
+
+/* -------------------------------------------------*/
+
+@media screen and (max-width:900px) {
+
+    ul{
+        margin-right: 10px;
+    }
+    ul li{
+        padding: 12px;
+        font-size: 18px;
+    }
+    .logo{
+        margin-top: 2px;
+        font-size: 0.8rem;
+    }
+    .story{
+        margin-left: -10%;
+    }
+    .img1{
+       max-width: 200%;
+       height: 60vh;
+    }
+    .paragraph{
+       font-size: 0.9rem;
+    }
+    .btn2{
+        width: 15vw;
+    }
+
+
+
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+
+    .story{
+        margin-left: -8%;
+    }
+    .img1{
+        max-width: 200%;
+        height:60vh;
+    }
+
+    .paragraph{
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+nav::before{
+    content: "";
+    background-image: url('/Images/cont-bg-1.jpg');
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    background-size:cover;
+    background-position:center;
+    z-index: -1;
+    opacity: 0.88;
+}
+
+ul{
+    display: flex;
+    position: relative;
+    right: 15px;
+}
+
+ul li{
+    list-style: none;
+    padding: 19px;
+    font-size: 21px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul li a:hover{
+    padding: 9px;
+    border-radius: 9px;
+    color: red;
+    background-color: rgb(103, 103, 206);
+}
+
+.logo{
+    display: flex;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 10px;
+    left: 41px;
+    font-family:cursive;
+    color: rgba(19, 47, 32, 0.979);
+}
+/* ---------------------------------------------------------------------------------------------- */
+.body1{
+    position: relative;
+    top: 400px;
+    height: 600px;
+}
+
+.head1{
+    margin-left: 51px;
+}
+
+#h1{
+    color: blue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head2{
+    margin-left: 51px;
+    margin-top: 31px;
+}
+
+#h2{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para{
+    font-size: 21px;
+    margin-top: 31px;
+    opacity: 0.8;
+}
+
+.btn{
+    margin-top: 21px;
+    padding:15px 29px;
+    background-color: rgb(100, 100, 156);
+    color: white;
+    border-radius: 11px;
+    font-size: 15px;
+}
+
+.more_info{
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+.two{
+    margin: 62px;
+}
+.three{
+    margin: 62px;
+}
+.four{
+    margin: 62px;
+}
+
+.para2 ,.para3, .para4{
+    font-size: 21px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* media querie */
+@media (max-width:600px){
+    .logo{
+       
+        font-size: 0.6rem;
+        top:10px;
+        left:11px;  
+    }
+
+    ul{
+        right:11px;
+    }
+
+    ul li{
+        padding:9px;
+        font-size:16px;
+    }
+
+    ul li a{
+     color: black;
+    }
+
+    ul li a:hover{
+     padding:10px;
+     border-radius: 9px;
+     color: red;
+     background-color: rgb(103, 103, 206);
+    }
+
+    .body1{
+        top: 250px;
+        height: 300px;
+    }
+
+    .head1{
+        display: none;
+    }
+
+    .head2{
+        margin-left: 31px;
+        margin-top: 58px;
+    }
+    #h2{
+        font-size:2.6rem;
+    }
+    .para{
+        font-size: 19px;
+        margin-top: 65px;
+    }
+    .btn{
+        margin-top:55px;
+        padding: 9px 22px;
+        border-radius: 9px;
+        font-size: 10px;
+    }
+    .more_info{
+        top: 340px;
+        left: 0px;
+    } 
+    .icons{
+        height: 5vh;
+    }
+    .para2 ,.para3, .para4{
+        font-size: 16px;
+    }
+    .two,.three,.four{
+        margin: 32px;
+    }
+    /* .one{
+        display: flex; 
+        position: absolute;
+        top: 50px;
+        right: 2px;
+    } */
+    br{
+        display: none;
+    }
+}
+
+/* ------------------------------------------ */
+/* for 900 px
+ */
+
+ @media(min-width:600px) and (max-width:900px){
+    
+    ul li{
+        font-size: 16px;
+        padding: 10px;
+    }
+    ul li a{
+        color: black;
+    }
+    .logo{
+        font-size: 1rem;
+        top: 4px;
+        left: 4px;
+    }
+    nav::before{
+        height: 40%;
+    }
+    .body1{
+        top: 280px;
+        height: 400px;
+    }
+    #h1{
+        font-size: 16px;
+    }
+    .head2{
+        margin-top: 27px;
+    }
+    br{
+        display: none;
+    }
+    #h2{
+        font-size: 4.4rem;
+    }
+    .para{
+        font-size: 19px;
+    }
+    .btn{
+        padding: 11px 22px;
+        font-size: 12px;
+    }
+    .more_info{
+        top: 380px;
+        left: 6px;
+    }
+    .two,.three,.four{
+        margin: 50px;
+    }
+    .para2,.para3,.para4{
+        font-size: 18px;
+    }
+    .icons{
+        height: 5vh;
+    }
+ }
+ /* -------------------------------------------------------- */
+
+ /* for 1200px */
+
+ @media (min-width:900px) and (max-width:1200px){
+
+    ul li{
+        font-size: 17px;
+        padding: 9px;
+    }
+    ul li a{
+        color: black;
+    }
+    .logo{
+        font-size: 1.2rem;
+        top: 3px;
+        left: 45px;
+    }
+    .body1{
+        top: 280px;
+        height: 600px;
+    }
+    br{
+        display: none;
+    }
+    #h2{
+        font-size: 4.6rem;
+    }
+    .para{
+        font-size: 22px;
+    }
+    .btn{
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+    .more_info{
+        top: 350px;
+        left: 5px;
+    }
+    .two,.three,.four{
+        margin: 55px;
+    }
+    .para2,.para3,.para4{
+        font-size: 21px;
+    }
+    .icons{
+        height: 6vh;
+    }
+ }
+ /* -------------------------------------------------------------- */
+ /* for more than 1200px */
+
+ @media (min-width:1200px){
+
+    ul li{
+        font-size: 20px;
+        padding: 14px;
+    }
+    ul li a{
+        color: black;
+    }
+    .logo{
+        font-size: 1.5rem;
+        top: 3px;
+        left: 45px;
+    }
+    .body1{
+        top: 350px;
+        height: 600px;
+    }
+    .icon{
+        height: 8vh;
+    }
+    .two,.three,.four{
+        margin: 55px;
+    }
+    .para2,.para3,.para4{
+        font-size: 21px;
+    }
+    .more_info{
+        right: 12px;
+    }
+ } 
+
+ /* --------------------------------------------------------------------------------------------------------------- */
+ /* Respinsibness completed */
