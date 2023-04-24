@@ -141,10 +141,17 @@ footer{
          font-size: 1rem;
          padding: 0.8rem;
     }
-    .btn2{
-        width: 10vw;
-    }
-     
+    .fill input{
+        padding: 0.5rem;
+        width: 28vw;
+     }
+     .fill select{
+        padding: 0.5rem;
+        width: 30vw;
+     }
+     .btn2{
+        width: 9vw;
+     }
 }
 
 @media screen and (min-width:900px) and (max-width: 1300px) {
@@ -155,7 +162,17 @@ footer{
     .sec1{
         margin-top: 35%;
     }
-    
+    .fill input{
+        padding: 0.5rem;
+        width: 28vw;
+     }
+     .fill select{
+        padding: 0.5rem;
+        width: 30vw;
+     }
+     .btn2{
+        width: 9vw;
+     }
 }
 
 @media screen and (min-width:1300px) and (max-width: 1600px) {
@@ -163,6 +180,17 @@ footer{
     nav::before{
         height: 50%;
     }
+    .fill input{
+        padding: 0.5rem;
+        width: 28vw;
+     }
+     .fill select{
+        padding: 0.5rem;
+        width: 30vw;
+     }
+     .btn2{
+        width: 9vw;
+     }
     /* .sec1{
         margin-top:50% ;
     } */

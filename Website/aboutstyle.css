@@ -156,9 +156,21 @@ footer{
     .paragraph{
        font-size: 0.9rem;
     }
-    .btn2{
-        width: 15vw;
-    }
+    .fill input{
+        padding: 0.5rem;
+        width: 28vw;
+     }
+     .fill select{
+        padding: 0.5rem;
+        width: 30vw;
+     }
+     .btn2{
+        width: 9vw;
+     }
+     footer{
+        margin-top: 5%;
+     }
+    
 
 
 
@@ -175,5 +187,19 @@ footer{
 
     .paragraph{
         font-size: 0.9rem;
+    }
+    .fill input{
+        padding: 0.5rem;
+        width: 28vw;
+     }
+     .fill select{
+        padding: 0.5rem;
+        width: 30vw;
+     }
+     .btn2{
+        width: 9vw;
+     }
+    footer{
+        margin-top: 5%;
     }
 }
